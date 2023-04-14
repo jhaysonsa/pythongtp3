@@ -23,6 +23,6 @@ def gpt3_completion(prompt, engine='text-davinci-002', temp=0.7, top_p=1.0, toke
 
 
 if __name__ == '__main__':
-    prompt = 'Write a list of famous American actors:'
+    prompt = 'who is jason ancheta in philippines'
     response = gpt3_completion(prompt)
     print(response)
